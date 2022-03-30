@@ -1,0 +1,6 @@
+.searchArea__wrap{
+    display: inline-flex;
+    width: 660px;
+    align-items: center;
+    justify-content: space-between;
+}

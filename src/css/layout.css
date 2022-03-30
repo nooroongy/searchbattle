@@ -1,0 +1,6 @@
+.layout__div{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 55vh 2fr 1fr 4fr;
+    justify-items: center;
+}

@@ -1,0 +1,15 @@
+.buttonArea__wrap{
+    display: flex;
+    align-items: center;
+}
+.buttonArea__button{
+    border: none;
+    width: 141px;
+    height: 54px;
+    font-size: 1.8em;
+    font-weight: 200;
+    border-radius: 15px;
+    color: #ffffffd4;
+    background: linear-gradient(to right bottom, #12c2e9, #c471ed, #f64f59);
+    cursor: pointer;
+}

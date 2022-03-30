@@ -1,0 +1,39 @@
+.chart__wrap{
+    margin-top: 20px;
+    position: relative;
+    width: 75vw;
+    height: calc(100% - 50px);
+    overflow: hidden;
+    transform-origin: right;
+}
+
+.chart__dataarea{
+    height: 50%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: flex;
+    align-items: flex-end;
+    opacity: 0.7;
+}
+.chart__dataarea.chart__chart1{
+    transform: translate(5px,0);
+}
+.chart__dataarea.chart__chart2{
+    transform: scaleY(-1) translate(5px,-100%);
+}
+
+.chart__bar_wrap{
+    display: inline-block;
+    height: 100%;
+    width: 50px;
+}
+
+.chart__bar{
+    display: inline-block;
+    width: 100%;
+    opacity: 0.8;
+    border-radius: 2px 2px 0 0;
+}
+

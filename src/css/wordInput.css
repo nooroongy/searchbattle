@@ -1,0 +1,28 @@
+.wordinput__wrap{
+    display: inline-flex;
+    align-items: center;
+}
+
+.wordinput__color_box{
+    display: inline-block;
+    width: 28px;
+    height: 28px;
+    border-radius: 9px;
+}
+
+.wordinput__color_1{background: linear-gradient(to right bottom, #2d5c4f, #a7ffd6);}
+.wordinput__color_2{background: linear-gradient(to right bottom, #f953c6, #b91d73);}
+.wordinput__color_3{background: linear-gradient(to right bottom, #ee9ca7, #ffdde1);}
+.wordinput__color_4{background: linear-gradient(to right bottom,  #7f7fd5, #86a8e7, #91eae4);}
+
+.wordinput__input{
+    text-align: center;
+    font-weight: bold;
+    width: 240px;
+    height: 37px;
+    border: none;
+    border-radius: 12px;
+    margin-left: 10px;
+    font-size: 1.3em;
+    padding: 0 8px;
+}

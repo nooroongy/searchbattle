@@ -1,0 +1,23 @@
+.slider__wrap{
+    display: flex;
+    position: relative;
+}
+
+.slider__body{
+    width: 220px;
+    display: inline-block;
+    height: 15px;
+    background-color: #ffffffeb;
+    border-radius: 4px;
+}
+
+.slider__header{
+    width: 25px;
+    display: inline-block;
+    height: 25px;
+    background-color: rgb(61 131 197);
+    position: absolute;
+    left: 0;
+    top: -5px;
+    border-radius: 9px;
+}
