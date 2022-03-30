@@ -1,23 +1,25 @@
 .slider__wrap{
     display: flex;
     position: relative;
+    margin-top: 30px;
 }
 
 .slider__body{
     width: 220px;
     display: inline-block;
-    height: 15px;
-    background-color: #ffffffeb;
-    border-radius: 4px;
+    height: 39px;
+    background-color: #3d83c5a8;
+    border-radius: 20px;
+    padding: 0 15px;
 }
 
 .slider__header{
-    width: 25px;
+    width: 30px;
     display: inline-block;
-    height: 25px;
-    background-color: rgb(61 131 197);
+    height: 30px;
+    background-color: rgb(115 148 181);
     position: absolute;
-    left: 0;
-    top: -5px;
-    border-radius: 9px;
+    left: 15px;
+    top: 5px;
+    border-radius: 15px;
 }
