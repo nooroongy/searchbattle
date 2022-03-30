@@ -2,17 +2,19 @@ import { useState } from "react";
 import Chart from "./Chart";
 
 const ChartArea = ({ data, color1, color2, range }) => {
-    const [startDay,setStartDay] = useState();
-    const [endDay,setendDay] = useState();
+    const [startDay, setStartDay] = useState();
+    const [endDay, setendDay] = useState();
+    let data1 =[]
+    let data2 =[]
+    if (data) {
+        data1 = data[0]?.data;
+        data2 = data[1]?.data;
 
-    //range는 1~100사이의 숫자
-    let data1 = data[0]?.data;
-    let data2 = data[1]?.data;
+        data1 = data1.slice(range * 3, data1.length)
+        data2 = data2.slice(range * 3, data2.length)
+    }
 
-    data1 = data1.slice(range*3,data1.length)
-    data2 = data2.slice(range*3,data2.length)
 
-    
 
     return (
         <div >
